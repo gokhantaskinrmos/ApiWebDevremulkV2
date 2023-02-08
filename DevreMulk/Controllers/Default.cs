@@ -30,7 +30,7 @@ namespace DevreMulk.Controllers
         }
 
         [HttpPost]//Hatalık Toplam Çağrı Sayısı
-        [Route("tesboxtipinde")]
+        [Route("ferhattipinde")]
         public IActionResult GunlukKullaniciSkoru(string bas,string bit)
         {
             using var c = new Context();//

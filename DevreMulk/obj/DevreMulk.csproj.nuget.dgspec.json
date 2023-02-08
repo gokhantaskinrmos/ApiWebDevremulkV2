@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RMOS\\Desktop\\RMOS FLUTTER PROJELERI\\DevreMulkApi\\DevreMulk\\DevreMulk.csproj": {}
+    "C:\\Users\\SERVER\\Source\\Repos\\ApiWebDevremulkV2\\DevreMulk\\DevreMulk.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RMOS\\Desktop\\RMOS FLUTTER PROJELERI\\DevreMulkApi\\DevreMulk\\DevreMulk.csproj": {
+    "C:\\Users\\SERVER\\Source\\Repos\\ApiWebDevremulkV2\\DevreMulk\\DevreMulk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RMOS\\Desktop\\RMOS FLUTTER PROJELERI\\DevreMulkApi\\DevreMulk\\DevreMulk.csproj",
+        "projectUniqueName": "C:\\Users\\SERVER\\Source\\Repos\\ApiWebDevremulkV2\\DevreMulk\\DevreMulk.csproj",
         "projectName": "DevreMulk",
-        "projectPath": "C:\\Users\\RMOS\\Desktop\\RMOS FLUTTER PROJELERI\\DevreMulkApi\\DevreMulk\\DevreMulk.csproj",
-        "packagesPath": "C:\\Users\\RMOS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RMOS\\Desktop\\RMOS FLUTTER PROJELERI\\DevreMulkApi\\DevreMulk\\obj\\",
+        "projectPath": "C:\\Users\\SERVER\\Source\\Repos\\ApiWebDevremulkV2\\DevreMulk\\DevreMulk.csproj",
+        "packagesPath": "C:\\Users\\SERVER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SERVER\\Source\\Repos\\ApiWebDevremulkV2\\DevreMulk\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\RMOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Users\\SERVER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -88,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
