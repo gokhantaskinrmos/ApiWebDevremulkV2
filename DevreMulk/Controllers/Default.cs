@@ -30,7 +30,7 @@ namespace DevreMulk.Controllers
         }
 
         [HttpPost]//Hatalık Toplam Çağrı Sayısı
-        [Route("yarrak31tipinde")]
+        [Route("textboxtipinde")]
         public IActionResult GunlukKullaniciSkoru(string bas,string bit)
         {
             using var c = new Context();//
@@ -40,6 +40,26 @@ namespace DevreMulk.Controllers
             var data = getQueryToDataTable(query, c);
             string json = JsonConvert.SerializeObject(data);
             return Ok(json);
+        }
+
+        [HttpPost]//liste
+        [Route("kullanici")]
+        public IActionResult kullanicilar(string kullaniciadi, string sifre)
+        {
+            bool kullaniciKontrol = false;
+            using var c = new Context();//
+            //var values = c.Employees.ToList();//
+            //tamam mı tamam
+            var data = getQueryToDataTable("select * from kullanicilar where kullaniciAdi='" + kullaniciadi + "' and sifre='" + sifre + "' ", c);
+            string json = JsonConvert.SerializeObject(data);
+            if (json == "[]")
+            {
+                return BadRequest();
+            }
+            else
+            {
+                return Ok("1");
+            }
         }
 
 

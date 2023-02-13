@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IuQf2zv98oVUtb43trovpAga3WeKKyhx1TVvl8NHPBNTgOILydsmQVZRpKWMne3NOLt62hEUK57Kt5u40V/ITQ==",
+  "dgSpecHash": "erqnMeJ7nBtbeIGVlPGFagC7pfWtepEcbepHsQIF40PUcZVQKKZ1en3AjohqrKIImrweqW0GX3Ft7VXd6+eK0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SERVER\\Source\\Repos\\ApiWebDevremulkV2\\DevreMulk\\DevreMulk.csproj",
+  "projectFilePath": "C:\\Users\\SERVER\\Source\\Repos\\gokhantaskinrmos\\ApiWebDevremulkV2\\DevreMulk\\DevreMulk.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SERVER\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\SERVER\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
